@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-03-17T08:17:34.085Z",
-  "count": 2,
+  "updated_at": "2026-03-17T08:18:02.048Z",
+  "count": 1,
   "patterns": [
     {
       "id": 1,
@@ -16,20 +16,6 @@
       "description": "yo",
       "is_regex": false,
       "added_at": "2026-03-17T08:11:44.356Z"
-    },
-    {
-      "id": 2,
-      "github_issue": 1,
-      "title": "hu1",
-      "prompt_text": "hi2",
-      "severity": 4.7,
-      "tags": [
-        "hi4"
-      ],
-      "target": "hi3",
-      "description": "hi1",
-      "is_regex": false,
-      "added_at": "2026-03-17T08:17:34.085Z"
     }
   ]
 }
