@@ -58,14 +58,17 @@ jobs:
               ? pattern.tags.filter(t => typeof t === 'string')
               : [];
 
+            const rawSeverity = parseFloat(pattern.severity);
+            const severity = !isNaN(rawSeverity)
+              ? Math.round(Math.max(1, Math.min(10, rawSeverity)) * 10) / 10
+              : 5;
+
             const entry = {
               id: db.patterns.length + 1,
               github_issue: issue.number,
               title: pattern.title || issue.title || 'Untitled',
               prompt_text: (pattern.prompt_text || '').trim(),
-              severity: typeof pattern.severity === 'number'
-                ? Math.max(1, Math.min(10, pattern.severity))
-                : 5,
+              severity,
               tags,
               target: pattern.target || '',
               description: pattern.description || '',
