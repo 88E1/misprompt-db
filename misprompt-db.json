@@ -1,21 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-03-17T08:18:43.059Z",
-  "count": 1,
-  "patterns": [
-    {
-      "id": 1,
-      "github_issue": 2,
-      "title": "yo",
-      "prompt_text": "yo",
-      "severity": 4.2,
-      "tags": [
-        "yo"
-      ],
-      "target": "yo",
-      "description": "yo",
-      "is_regex": false,
-      "added_at": "2026-03-17T08:18:43.059Z"
-    }
-  ]
+  "updated_at": "2026-03-17T08:19:00.605Z",
+  "count": 0,
+  "patterns": []
 }
